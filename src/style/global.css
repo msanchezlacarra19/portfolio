@@ -1,0 +1,18 @@
+* { font-family: 'Roboto', sans-serif; }
+
+.boton-descargar {
+  border: 1px solid #212121 !important;
+  color: #212121 !important;
+  font-weight: 200;
+  text-transform: none;
+  padding: 0.6rem 1rem !important;
+  border-radius: 8px !important;
+  transition: all 0.3s ease !important;
+  background-color: transparent !important;
+}
+
+.boton-descargar:hover {
+  background-color: #212121 !important;
+  color: #ffffff !important;
+  border-color: #212121 !important;
+}

@@ -1,14 +1,12 @@
-import React from 'react';
-import { AppRouter } from './router/AppRouter';
-//import { AppTheme } from './themes';
-
+import { AppRouter } from "./router/AppRouter";
+import { NavbarComponent } from './app/components/index';
 
 function App() {
   return (
-    //<AppTheme>
+    <>
+      <NavbarComponent />
       <AppRouter />
-    //</AppTheme>
-  )
+    </>
+  );
 }
-
-export default App
+export default App;

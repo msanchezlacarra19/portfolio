@@ -1,11 +1,13 @@
+// src/router/AppRouter.jsx
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
-import { AppRoutes } from '../app/routes/AppRoutes';
+import { HomePage, ConstructionPage } from '../app/pages';
 
 export const AppRouter = () => {
   return (
     <Routes>
-      <Route path="/main/*" element={ <AppRoutes /> } />
+      <Route path="/main/home" element={<HomePage />} />
+      <Route path="*" element={<ConstructionPage />} />
     </Routes>
-  )
-}
+  );
+};
