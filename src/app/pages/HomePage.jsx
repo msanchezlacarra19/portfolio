@@ -119,7 +119,7 @@ export const HomePage = () => {
             <Box sx={{ width: { xs: "100%", md: "35%" }, display: "flex", justifyContent: "center" }}>
               <img
                 alt={t("about.imageAlt")}
-                src="/portfolio/images/Ilustracion2.png"
+                src="/portfolio/images/profileImage.png"
                 style={{
                   width: "100%",
                   maxWidth: "350px",
@@ -181,7 +181,7 @@ export const HomePage = () => {
             <Box sx={{ width: { xs: "100%", md: "35%" }, display: "flex", justifyContent: "center" }}>
               <img
                 alt={t("about.imageAlt")}
-                src="/portfolio/images/Ilustracion2.png"
+                src="/portfolio/images/profileImage.png"
                 style={{
                   width: "100%",
                   maxWidth: "350px",
@@ -243,7 +243,7 @@ export const HomePage = () => {
             <Box sx={{ width: { xs: "100%", md: "35%" }, display: "flex", justifyContent: "center" }}>
               <img
                 alt={t("about.imageAlt")}
-                src="/portfolio/images/Ilustracion2.png"
+                src="/portfolio/images/profileImage.png"
                 style={{
                   width: "100%",
                   maxWidth: "350px",
