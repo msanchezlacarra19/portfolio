@@ -1,7 +1,113 @@
 {
+  "navbar": {
+    "e1": "Home",
+    "e2": "About me",
+    "e3": "Skills",
+    "e4": "Education",
+    "e5": "Free time"
+  },
   "home": {
-    "title": "María — Full Stack Developer",
-    "subtitle": "I create functional, polished web experiences with an artistic touch",
-    "download": "Download CV"
+    "presentation": "Hi, I'm ",
+    "name": "María Sánchez",
+    "subtitle": "I develop web applications with passion, curiosity, and a mindset of continuous improvement.",
+    "summary": "A Full Stack web developer passionate about building reliable applications and clean, functional experiences on the web.",
+    "download": "Download CV",
+    "contact": "Contact"
+  },
+  "construction": {
+    "title": "Page under construction",
+    "subtitle": "I’m working on this section. Check back soon!",
+    "button": "Back to home"
+  },
+  "contactModal": {
+    "dialogAria": "Contact modal",
+    "closeAria": "Close modal",
+    "subtitle": "Let's chat! 😊",
+    "linkedin": "LinkedIn"
+  },
+  "about": {
+    "headerKicker": "About me",
+    "headerTitle": "Professional background",
+    "headerIntro": "Experience and approach to web development, combining a solid technical foundation, functional vision, and continuous improvement.",
+    "imageAlt": "Photo of María Sánchez",
+    "p1": "I am a Full Stack Developer with experience in <strong>.NET Core, C#, React, Angular, and database management.</strong> I work on creating and improving web applications, taking care of both the technical side and functional clarity. I enjoy analyzing, structuring, and building solutions that are stable, useful, and easy to maintain.",
+    "p2": "I come from the telecommunications sector, where I learned to listen, solve problems, and work with discipline. Today, I apply that same mindset to development: constant curiosity, continuous improvement, and a strong commitment to doing things well. My philosophy is simple: <strong>motivation, effort, and continuous growth.</strong>"
+  },
+  "skills": {
+    "headerKicker": "Skills",
+    "headerTitle": "Skills",
+    "headerIntro": "Technologies and professional competencies focused on building robust, maintainable web applications with a results-driven approach.",
+    "technology": {
+      "title": "Technologies",
+      "subtitle": "Main technical stack",
+      "groups": {
+        "languages": {
+          "title": "Programming languages",
+          "subtitle": "Technical foundation"
+        },
+        "frameworks": {
+          "title": "Frameworks and technologies",
+          "subtitle": "Frontend and backend"
+        },
+        "databases": {
+          "title": "Databases",
+          "subtitle": "Persistence and performance"
+        },
+        "cloud": {
+          "title": "Cloud and tools",
+          "subtitle": "Technical environment"
+        }
+      }
+    },
+    "professional": {
+      "title": "Professional competencies",
+      "subtitle": "Working style and quality focus",
+      "practiceTitle": "Methodology and practices",
+      "practice": {
+        "scrum": "Scrum",
+        "kanban": "Kanban",
+        "codeQuality": "Code quality",
+        "documentation": "Technical documentation"
+      },
+      "items": {
+        "analysis": "Ability to analyze and document applications from scratch, understanding requirements and proposing solid technical solutions.",
+        "maintenance": "Experience in evolutionary and corrective maintenance, ensuring stability and continuous improvement in production applications.",
+        "quality": "Quality-oriented mindset through unit and integration testing.",
+        "updates": "Research and update of libraries and dependencies, ensuring compatibility, security, and technological evolution.",
+        "databases": "Database management and stored procedure design, optimizing performance and data structure.",
+        "teamwork": "Teamwork in agile methodologies, with strong communication, active listening, and adaptability.",
+        "learning": "Proactivity, autonomy, and a continuous learning mindset."
+      }
+    },
+    "techAccordion": {
+      "descriptions": {
+        "languages": "Technical foundation I use to build web applications and backend services.",
+        "frameworks": "Core technologies I use for frontend and backend development in real projects.",
+        "databases": "Tools for modeling, persistence, and optimization of data access.",
+        "cloud": "Platforms and utilities for deployment, version control, and collaborative workflows.",
+        "professional": "Key competencies I apply to deliver maintainable, scalable, and high-quality software."
+      },
+      "groupTitles": {
+        "backend": "Backend",
+        "frontend": "Frontend"
+      }
+    }
+  },
+  "education": {
+    "headerKicker": "Education",
+    "headerTitle": "Academic background",
+    "headerIntro": "Studies that have shaped my technical foundation and the way I approach software development.",
+    "items": {
+      "daw": {
+        "title": "Higher Vocational Training in Web Application Development",
+        "period": "Ilerna Online — 2023 · Present",
+        "description": "Specialized training in full stack web development: C#, JavaScript, Java, and PHP programming, databases, client-server architecture, and practical projects focused on real-world environments."
+      },
+      "highSchool": {
+        "title": "Technological High School Diploma",
+        "period": "IES Vega del Jarama — 2010 · 2012",
+        "description": "Solid foundation in mathematics, technology, and computer science, developing logical thinking and problem-solving skills."
+      }
+    }
   }
 }

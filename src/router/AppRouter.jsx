@@ -1,4 +1,3 @@
-// src/router/AppRouter.jsx
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
 import { HomePage, ConstructionPage } from '../app/pages';

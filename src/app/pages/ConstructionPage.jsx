@@ -1,38 +1,50 @@
-import { Box, Typography, Button } from "@mui/material";
+import { Box, Typography, Button, Grid, Paper } from "@mui/material";
+import { useTranslation } from "react-i18next";
+import { LayoutApp } from "../layout/LayoutApp";
 
 export const ConstructionPage = () => {
+  const { t } = useTranslation();
   return (
-    <Box
-      sx={{
-        minHeight: "100vh",
-        display: "flex",
-        flexDirection: "column",
-        alignItems: "center",
-        justifyContent: "center",
-        textAlign: "center",
-        px: 2,
-        background: "linear-gradient(135deg, #E3F2FD, #E8F5E9)",
-      }}
-    >
-      <Typography variant="h4" fontWeight={700} mb={1}>
-        Página en construcción
-      </Typography>
-      <img
-        src="/portfolio/images/dinoTrabajando.png"
-        alt="Dinosaurio trabajando"
-        style={{ width: "260px", marginBottom: "1.5rem" }}
-      />
-      <Typography variant="body1" color="text.secondary" mb={4}>
-        Estoy trabajando en esta sección. ¡Vuelve pronto!
-      </Typography>
+    <LayoutApp center={true}>
+      <Paper sx={{ p: { xs: 2, sm: 3 }, width: "min(620px, 92%)", textAlign: "center" }} elevation={0}>
+        <Grid
+          container
+          direction="column"
+          justifyContent="center"
+          alignItems="center"
+          sx={{ textAlign: "center" }}
+        >
+          <Grid item>
+            <Typography variant="h4" fontWeight={700} mb={1}>
+              {t("construction.title")}
+            </Typography>
+          </Grid>
 
-      <Button
-        variant="outlined"
-        className="boton-descargar"
-        href="/#/main/home"
-      >
-        Volver al inicio
-      </Button>
-    </Box>
+          <Grid item>
+            <img
+              src="/portfolio/images/dinoTrabajando.png"
+              alt="Dinosaurio trabajando"
+              style={{ width: "260px", marginBottom: "1.5rem" }}
+            />
+          </Grid>
+
+          <Grid item>
+            <Typography variant="body1" color="text.secondary" mb={4}>
+              {t("construction.subtitle")}
+            </Typography>
+          </Grid>
+
+          <Grid item>
+            <Button
+              variant="outlined"
+              className="boton-descargar"
+              href="/portfolio/#/main/home"
+            >
+              {t("construction.button")}
+            </Button>
+          </Grid>
+        </Grid>
+      </Paper>
+    </LayoutApp>
   );
 };

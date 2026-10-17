@@ -1,15 +1,18 @@
-import { ThemeProvider } from '@emotion/react';
-import { CssBaseline, StyledEngineProvider } from '@mui/material';
-import { MainTheme } from '.';
+import { Box } from "@mui/material";
+import { useState } from "react";
+import { ThemeProvider, CssBaseline } from "@mui/material";
+import { lightTheme, darkTheme } from "./theme";
+import { NavbarComponent } from "../app/components/NavbarComponent";
 
 export const AppTheme = ({ children }) => {
-  return (
-    <StyledEngineProvider injectFirst>
-      <ThemeProvider theme={MainTheme}>
-        <CssBaseline />
+  const [modoOscuro, setModoOscuro] = useState(false);
 
-        {children}
-      </ThemeProvider>
-    </StyledEngineProvider>
-  )
+  return (
+    <ThemeProvider theme={modoOscuro ? darkTheme : lightTheme}>
+      <CssBaseline />
+      <NavbarComponent modoOscuro={modoOscuro} setModoOscuro={setModoOscuro} />
+      <Box className="navbar-spacer" aria-hidden="true" />
+      {children}
+    </ThemeProvider>
+  );
 }

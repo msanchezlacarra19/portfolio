@@ -1,7 +1,113 @@
 {
+  "navbar": {
+    "e1": "Inicio",
+    "e2": "Sobre mí",
+    "e3": "Perfil técnico",
+    "e4": "Formación",
+    "e5": "Tiempo libre"
+  },
   "home": {
-    "title": "María — Full Stack Developer",
-    "subtitle": "Creo experiencias web funcionales, cuidadas y con un toque artístico",
-    "download": "Descargar CV"
+    "presentation": "Hola, soy ",
+    "name": "María Sánchez",
+    "subtitle": "Desarrollo aplicaciones web con pasión, curiosidad y una mentalidad de mejora continua.",
+    "summary": "Desarrolladora web Full Stack apasionada por construir aplicaciones fiables y experiencias limpias y funcionales en la web.",
+    "download": "Descargar CV",
+    "contact": "Contacto"
+  },
+  "construction": {
+    "title": "Página en construcción",
+    "subtitle": "Estoy trabajando en esta sección. ¡Vuelve pronto!",
+    "button": "Volver al inicio"
+  },
+  "contactModal": {
+    "dialogAria": "Modal de contacto",
+    "closeAria": "Cerrar modal",
+    "subtitle": "¡Charlemos! 😊",
+    "linkedin": "LinkedIn"
+  },
+  "about": {
+    "headerKicker": "Sobre mí",
+    "headerTitle": "Trayectoria profesional",
+    "headerIntro": "Experiencia y enfoque de trabajo en desarrollo web, combinando base técnica sólida, visión funcional y mejora continua.",
+    "imageAlt": "Foto de María Sánchez",
+    "p1": "Soy desarrolladora Full Stack con experiencia en <strong>.NET Core, C#, React, Angular y gestión de bases de datos.</strong> Trabajo creando y mejorando aplicaciones web, cuidando tanto la parte técnica como la claridad funcional. Me gusta analizar, estructurar y construir soluciones estables, útiles y fáciles de mantener.",
+    "p2": "Vengo del sector de las telecomunicaciones, donde aprendí a escuchar, resolver y trabajar con rigor. Hoy aplico esa misma mentalidad al desarrollo: curiosidad constante, mejora continua y compromiso con el trabajo bien hecho. Mi filosofía es sencilla: <strong>ganas, esfuerzo y evolución constante.</strong>"
+  },
+  "skills": {
+    "headerKicker": "Perfil técnico",
+    "headerTitle": "Perfil técnico",
+    "headerIntro": "Tecnologías y competencias profesionales orientadas al desarrollo de aplicaciones web robustas, mantenibles y enfocadas en resultados.",
+    "technology": {
+      "title": "Tecnologías",
+      "subtitle": "Stack técnico principal",
+      "groups": {
+        "languages": {
+          "title": "Lenguajes de programación",
+          "subtitle": "Base técnica"
+        },
+        "frameworks": {
+          "title": "Frameworks y tecnologías",
+          "subtitle": "Frontend y backend"
+        },
+        "databases": {
+          "title": "Bases de datos",
+          "subtitle": "Persistencia y rendimiento"
+        },
+        "cloud": {
+          "title": "Cloud y herramientas",
+          "subtitle": "Entorno técnico"
+        }
+      }
+    },
+    "professional": {
+      "title": "Competencias profesionales",
+      "subtitle": "Forma de trabajo y enfoque de calidad",
+      "practiceTitle": "Metodología y prácticas",
+      "practice": {
+        "scrum": "Scrum",
+        "kanban": "Kanban",
+        "codeQuality": "Calidad de código",
+        "documentation": "Documentación técnica"
+      },
+      "items": {
+        "analysis": "Capacidad de análisis y documentación de aplicaciones desde cero, comprendiendo requisitos y proponiendo soluciones técnicas sólidas.",
+        "maintenance": "Experiencia en mantenimiento evolutivo y correctivo, asegurando estabilidad y mejora continua en aplicaciones en producción.",
+        "quality": "Orientación a la calidad mediante la realización de pruebas unitarias y de integración.",
+        "updates": "Investigación y actualización de librerías y dependencias, garantizando compatibilidad, seguridad y evolución tecnológica.",
+        "databases": "Gestión de bases de datos y diseño de procedimientos almacenados, optimizando rendimiento y estructura de datos.",
+        "teamwork": "Trabajo en equipo dentro de metodologías ágiles, con buena comunicación, escucha activa y capacidad de adaptación.",
+        "learning": "Proactividad, autonomía y actitud de aprendizaje continuo."
+      }
+    },
+    "techAccordion": {
+      "descriptions": {
+        "languages": "Base técnica sobre la que construyo aplicaciones web y servicios backend.",
+        "frameworks": "Tecnologías principales con las que desarrollo frontend y backend en proyectos reales.",
+        "databases": "Herramientas para modelado, persistencia y optimización del acceso a datos.",
+        "cloud": "Plataformas y utilidades para despliegue, control de versiones y trabajo colaborativo.",
+        "professional": "Competencias clave que aplico para entregar software mantenible, escalable y de calidad."
+      },
+      "groupTitles": {
+        "backend": "Backend",
+        "frontend": "Frontend"
+      }
+    }
+  },
+  "education": {
+    "headerKicker": "Formación",
+    "headerTitle": "Trayectoria académica",
+    "headerIntro": "Estudios que han construido mi base técnica y mi forma de abordar el desarrollo de software.",
+    "items": {
+      "daw": {
+        "title": "CFGS Desarrollo de Aplicaciones Web",
+        "period": "Ilerna Online — 2022 · 2023",
+        "description": "Formación especializada en desarrollo web full stack: programación en C#, JavaScript, Java y PHP, bases de datos, arquitectura cliente-servidor y proyectos prácticos orientados a entornos reales."
+      },
+      "highSchool": {
+        "title": "Bachillerato Tecnológico",
+        "period": "IES Vega del Jarama — 2010 · 2012",
+        "description": "Base sólida en matemáticas, tecnología e informática, desarrollando pensamiento lógico y capacidad de resolución de problemas."
+      }
+    }
   }
 }

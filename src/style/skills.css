@@ -1,0 +1,250 @@
+.tech-page {
+  width: min(1120px, 100%);
+  margin: 0 auto;
+  padding: 2rem 1rem 2rem;
+  position: relative;
+  z-index: 1;
+  align-self: flex-start;
+}
+
+.tech-page__header {
+  width: min(860px, 100%);
+  margin: 0 auto 2.4rem;
+  padding-top: 0.3rem;
+}
+
+.tech-page__kicker {
+  font-size: 0.92rem !important;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  font-weight: 700 !important;
+  margin-bottom: 0.35rem !important;
+}
+
+.tech-page__title {
+  margin-bottom: 0.45rem !important;
+}
+
+.tech-page__intro {
+  max-width: 68ch;
+  opacity: 0.95;
+}
+
+.tech-page__grid {
+  width: min(900px, 100%);
+  margin: 0 auto;
+}
+
+.tech-card {
+  border-radius: 22px !important;
+  border: 1px solid transparent;
+  padding: clamp(1.1rem, 2.2vw, 1.7rem) clamp(1rem, 2.5vw, 1.8rem);
+  cursor: pointer;
+  transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+}
+
+.tech-card:hover {
+  transform: translateY(-2px);
+}
+
+.tech-card__head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.tech-card__summary {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.8rem;
+}
+
+.tech-card__icon-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tech-card__icon {
+  margin-top: 2px;
+  font-size: 1.45rem !important;
+}
+
+.tech-card__arrow {
+  transition: transform 0.3s ease;
+}
+
+.tech-card--open .tech-card__arrow {
+  transform: rotate(180deg);
+}
+
+.tech-card__title {
+  margin-bottom: 0.22rem !important;
+}
+
+.tech-card__subtitle {
+  opacity: 0.86;
+}
+
+.tech-card__content {
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+  margin-top: 0;
+  transition: max-height 0.35s ease, opacity 0.28s ease, margin-top 0.28s ease;
+}
+
+.tech-card__content--open {
+  max-height: 800px;
+  opacity: 1;
+  margin-top: 0.9rem;
+}
+
+.tech-card__description {
+  margin-bottom: 0.8rem !important;
+  line-height: 1.68 !important;
+}
+
+.tech-card__group + .tech-card__group {
+  margin-top: 0.8rem;
+}
+
+.tech-card__group-title {
+  margin-bottom: 0.55rem !important;
+  opacity: 0.92;
+}
+
+.tech-card__chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+}
+
+.tech-card__chip {
+  border-width: 1.2px !important;
+}
+
+.tech-card__details {
+  margin-top: 0.95rem;
+  display: grid;
+  gap: 0.55rem;
+}
+
+.tech-card__detail-item {
+  line-height: 1.6 !important;
+}
+
+.tech-page--light .tech-page__kicker {
+  color: #a14170;
+}
+
+.tech-page--light .tech-page__title {
+  color: #20151a;
+}
+
+.tech-page--light .tech-page__intro {
+  color: #4b3640;
+}
+
+.tech-page--light .tech-card {
+  background: linear-gradient(145deg, rgba(255, 255, 255, 0.72) 0%, rgba(255, 248, 252, 0.58) 100%);
+  border-color: rgba(255, 255, 255, 0.62);
+  box-shadow: 0 20px 42px rgba(153, 114, 130, 0.18), inset 0 1px 0 rgba(255, 255, 255, 0.58);
+}
+
+.tech-page--light .tech-card:hover {
+  border-color: rgba(167, 62, 112, 0.34);
+  box-shadow: 0 24px 46px rgba(153, 114, 130, 0.23), inset 0 1px 0 rgba(255, 255, 255, 0.62);
+}
+
+.tech-page--light .tech-card--open {
+  border-color: rgba(167, 62, 112, 0.42);
+  box-shadow: 0 24px 46px rgba(153, 114, 130, 0.25), inset 0 1px 0 rgba(255, 255, 255, 0.62);
+}
+
+.tech-page--light .tech-card__icon,
+.tech-page--light .tech-card__arrow {
+  color: #a64271;
+}
+
+.tech-page--light .tech-card__title {
+  color: #2b1a22;
+}
+
+.tech-page--light .tech-card__subtitle,
+.tech-page--light .tech-card__description,
+.tech-page--light .tech-card__detail-item {
+  color: #4b3640;
+}
+
+.tech-page--light .tech-card__group-title {
+  color: #6f5160;
+}
+
+.tech-page--light .tech-card__chip {
+  border-color: rgba(161, 65, 112, 0.42) !important;
+  color: #7f3259 !important;
+}
+
+.tech-page--dark .tech-page__kicker {
+  color: #ff93dc;
+}
+
+.tech-page--dark .tech-page__title {
+  color: #ffffff;
+}
+
+.tech-page--dark .tech-page__intro {
+  color: #e8cff7;
+}
+
+.tech-page--dark .tech-card {
+  background: linear-gradient(150deg, rgba(21, 10, 30, 0.72) 0%, rgba(17, 7, 26, 0.58) 100%);
+  border-color: rgba(255, 124, 215, 0.3);
+  box-shadow: 0 22px 50px rgba(0, 0, 0, 0.58), inset 0 1px 0 rgba(255, 162, 229, 0.16);
+}
+
+.tech-page--dark .tech-card:hover {
+  border-color: rgba(255, 143, 220, 0.56);
+  box-shadow: 0 26px 54px rgba(0, 0, 0, 0.62), inset 0 1px 0 rgba(255, 162, 229, 0.24);
+}
+
+.tech-page--dark .tech-card--open {
+  border-color: rgba(255, 143, 220, 0.56);
+  box-shadow: 0 28px 58px rgba(0, 0, 0, 0.64), inset 0 1px 0 rgba(255, 162, 229, 0.28);
+}
+
+.tech-page--dark .tech-card__icon,
+.tech-page--dark .tech-card__arrow {
+  color: #ffaee8;
+}
+
+.tech-page--dark .tech-card__title {
+  color: #fef8ff;
+}
+
+.tech-page--dark .tech-card__subtitle,
+.tech-page--dark .tech-card__description,
+.tech-page--dark .tech-card__detail-item {
+  color: #efdafc;
+}
+
+.tech-page--dark .tech-card__group-title {
+  color: #dcb8ef;
+}
+
+.tech-page--dark .tech-card__chip {
+  border-color: rgba(255, 174, 232, 0.46) !important;
+  color: #f1cbff !important;
+}
+
+@media (max-width: 640px) {
+  .tech-page {
+    padding: 1rem 0.25rem 1.4rem;
+  }
+
+  .tech-card {
+    border-radius: 18px !important;
+  }
+}

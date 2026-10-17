@@ -1,12 +1,11 @@
 import { AppRouter } from "./router/AppRouter";
-import { NavbarComponent } from './app/components/index';
+import { AppTheme } from "./themes/AppTheme";
 
 function App() {
   return (
-    <>
-      <NavbarComponent />
+    <AppTheme>
       <AppRouter />
-    </>
+    </AppTheme>
   );
 }
 export default App;
